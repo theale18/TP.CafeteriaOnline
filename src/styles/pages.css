@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  transition: background-color 0.45s ease, color 0.45s ease;
+}
+
+/* layout container */
+.container-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/*_________________________________________________________________________________________________HOME_________*/
+.home-hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.home-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #5b3e2b;   /*  LUNA & GRANOS CAFE*/
+  margin-bottom: 12px;
+}
+
+.home-description {
+  font-size: 1.05rem;
+  color: rgba(0,0,0,0.7);
+  margin-bottom: 16px;
+}
+
+.btn-custom {
+  background-color: #6b4f3b;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 8px;
+}
+
+.btn-custom:hover {
+  background-color: #5c4432;
+}
+
+/*_____________________________________________________________________________________________Intro cards______*/
+.intro-card {
+  text-align: left;
+  padding: 18px;
+}
+
+.intro-card h3 {
+  margin-bottom: 8px;
+  color: #3b3b3b;
+}
+
+/*______________________________________________________________________________________________MENU____________*/
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1.25rem;
+  padding: 1rem 0;
+}
+
+.product-card {
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+  transition: transform 0.18s ease;
+  background: var(--card-bg, #fff);
+}
+
+.product-card:hover {
+  transform: translateY(-6px);
+}
+
+.product-image {
+  height: 180px;
+  object-fit: cover;
+  width: 100%;
+}
+
+/*_________________________________________________________________________________________________buttons_____*/
+.btn-add-cart {
+  width: 100%;
+  background-color: #6b4f3b;
+  border: none;
+  color: white;
+}
+
+/*_________________________________________________________________________________________________CONTACT______*/
+.contact-main {
+  padding: 50px 0;
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+  background: rgba(255,255,255,0.95);
+  padding: 28px;
+  border-radius: 10px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.05);
+}
+
+.contact-form .form-control {
+  border-radius: 8px;
+}
+
+/*_________________________________________________________________________________________________CART_________*/
+.cart-main {
+  padding: 40px 0;
+}
+
+.cart-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.cart-table td, .cart-table th {
+  vertical-align: middle;
+}
+
+/*_____________________________________________________________________________________________cart summary_____*/
+.cart-summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+/*_____________________________________________________________________________________________RESPONSIVE_______*/
+@media (max-width: 992px) {
+  .home-title { font-size: 2rem; }
+  .menu-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 576px) {
+  .home-title { font-size: 1.7rem; text-align: center; }
+  .home-description { text-align: center; }
+  .menu-grid { grid-template-columns: 1fr; }
+  .container-page { padding: 1rem; }
+  .contact-form { padding: 18px; width: 95%; }
+}

@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "nombre": "Espresso Doble",
+    "precio": 1200,
+    "imagen": "/images/espresso.jpg",
+    "categoria": "cafe"
+  },
+  {
+    "id": 2,
+    "nombre": "Cappuccino Clásico",
+    "precio": 1600,
+    "imagen": "/images/cappuccino.jpg",
+    "categoria": "cafe"
+  },
+  {
+    "id": 3,
+    "nombre": "Latte Vainilla",
+    "precio": 1700,
+    "imagen": "/images/latte.jpg",
+    "categoria": "cafe"
+  },
+  {
+    "id": 4,
+    "nombre": "Té Verde Matcha",
+    "precio": 1500,
+    "imagen": "/images/matcha.jpg",
+    "categoria": "te"
+  },
+  {
+    "id": 5,
+    "nombre": "Té de Frutos Rojos",
+    "precio": 1300,
+    "imagen": "/images/tefrutos.jpg",
+    "categoria": "te"
+  },
+  {
+    "id": 6,
+    "nombre": "Croissant de Manteca",
+    "precio": 900,
+    "imagen": "/images/croissant.jpg",
+    "categoria": "pasteleria"
+  },
+  {
+    "id": 7,
+    "nombre": "Tarta de Limón",
+    "precio": 1400,
+    "imagen": "/images/tarta_limon.jpg",
+    "categoria": "pasteleria"
+  },
+  {
+    "id": 8,
+    "nombre": "Brownie con Nueces",
+    "precio": 1500,
+    "imagen": "/images/brownie.jpg",
+    "categoria": "pasteleria"
+  }
+]

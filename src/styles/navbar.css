@@ -1,0 +1,82 @@
+.navbar-custom {
+  box-shadow: 0 2px 6px rgba(20,20,20,0.06);
+  background: #fff;
+  transition: background-color 0.4s ease, color 0.4s ease;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+}
+
+.logo {
+  width: 44px;
+  height: 44px;
+  object-fit: cover;
+  margin-right: 10px;
+  border-radius: 6px;
+}
+
+.theme-toggle {
+  font-size: 0.9rem;
+}
+
+/*____________________________________________________MODO CLARO_____*/
+body.light {    /*  COLOR DE FONDO  */
+  background-color: #d2b48c;
+  color: #5b3e2b;
+}
+
+body.light .navbar-custom {   /*  COLOR DE LA BARRA  */
+  background-color: #f7f3ef;
+}
+
+body.light .brand,
+body.light .nav-link {
+  color: #5b3e2b !important;
+}
+
+body.light .nav-link:hover {  /*  COLOR SOBRE CON PUNTERO */
+  color: #ff0000 !important;
+}
+
+/*____________________________________________________MODO OSCURO____*/
+body.dark {
+  background-color: #1e1e1e;
+  color: #f4f4f4;
+}
+
+body.dark .navbar-custom {
+  background-color: #151515;
+}
+
+body.dark .brand,
+body.dark .nav-link {
+  color: #f4f4f4 !important;
+}
+
+body.dark .nav-link:hover {
+  color: #c9a27b !important;
+}
+
+/*_______________________________________________responsive tweaks____*/
+@media (max-width: 992px) {
+  .navbar-custom {
+    padding: 0.6rem 1rem;
+  }
+
+  .brand {
+    font-size: 1.05rem;
+  }
+
+  .theme-toggle {
+    margin-top: 8px;
+    width: 100%;
+  }
+
+  .navbar-collapse {
+    text-align: center;
+  }
+}
+
