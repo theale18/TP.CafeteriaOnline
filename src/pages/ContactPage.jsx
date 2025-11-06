@@ -14,7 +14,7 @@ const ContactPage = () => {
   const [enviado, setEnviado] = useState(false);
 
   useEffect(() => {
-    document.title = 'Luna & Granos Café — Reservas';
+    document.title = 'Luna & Granos Cafe: Reservas';
   }, []);
 
   const handleChange = (e) => {

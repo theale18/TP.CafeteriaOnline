@@ -19,8 +19,8 @@ const CartComponent = () => {
   const handleConfirm = () => {
     setShowModal(false);
     clearCart();
-    // Se puede reemplazar por un modal final más complejo
-    alert('¡Pedido confirmado! Gracias por elegir Luna & Granos Café ☕');
+  
+    alert('¡Pedido confirmado! Gracias por elegir Luna & Granos Cafe');
   };
 
   return (

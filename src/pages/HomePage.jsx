@@ -3,7 +3,7 @@ import { Container, Row, Col, Button } from 'react-bootstrap';
 
 const HomePage = () => {
   useEffect(() => {
-    document.title = 'Luna & Granos Café — Inicio';
+    document.title = 'Luna & Granos Cafe: Inicio';
   }, []);
 
   return (
@@ -13,7 +13,7 @@ const HomePage = () => {
           <Col xs={12} md={6} className="home-content">
             <h1 className="home-title">Luna & Granos Café</h1>
             <p className="home-description">
-              Un lugar para disfrutar cafés de especialidad, tés seleccionados y
+              Un lugar para disfrutar cafes de especialidad, tés seleccionados y
               pastelería casera. Relajate, trabajá o encontrate con amigos.
             </p>
             <div>
@@ -30,15 +30,15 @@ const HomePage = () => {
         <Row>
           <Col xs={12} md={4} className="intro-card">
             <h3>Nuestra filosofía</h3>
-            <p>Calidad, comunidad y sostenibilidad. Café de origen directo y trato justo al productor.</p>
+            <p>Calidad, comunidad y sostenibilidad. Cafe de origen directo y trato justo al productor.</p>
           </Col>
           <Col xs={12} md={4} className="intro-card">
             <h3>Especialidades</h3>
-            <p>Cold brew, cappuccino de autor, blends de estación y opciones sin lactosa.</p>
+            <p>Cold brew, cappuccino de autor, blends de estacion y opciones sin lactosa.</p>
           </Col>
           <Col xs={12} md={4} className="intro-card">
             <h3>Ambiente</h3>
-            <p>Espacio acogedor con wifi y enchufes para trabajar. Música cuidada y plantas.</p>
+            <p>Espacio acogedor con wifi y enchufes para trabajar. Musica cuidada y plantas.</p>
           </Col>
         </Row>
       </section>

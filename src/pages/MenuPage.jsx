@@ -9,7 +9,7 @@ const MenuPage = () => {
   const { addToCart } = useContext(CartContext);
 
   useEffect(() => {
-    document.title = 'Luna & Granos Café — Carta';
+    document.title = 'Luna & Granos Cafe: Carta';
     setProductos(productsData);
   }, []);
 

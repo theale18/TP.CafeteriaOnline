@@ -22,7 +22,7 @@
   font-size: 0.9rem;
 }
 
-/*____________________________________________________MODO CLARO_____*/
+/*__________________________________________________MODO CLARO_____*/
 body.light {    /*  COLOR DE FONDO  */
   background-color: #d2b48c;
   color: #5b3e2b;
@@ -41,7 +41,7 @@ body.light .nav-link:hover {  /*  COLOR SOBRE CON PUNTERO */
   color: #ff0000 !important;
 }
 
-/*____________________________________________________MODO OSCURO____*/
+/*__________________________________________________MODO OSCURO____*/
 body.dark {
   background-color: #1e1e1e;
   color: #f4f4f4;

@@ -18,7 +18,6 @@ const Navbar = () => {
   }, []);
 
   useEffect(() => {
-    // small tweak: keep body class in sync if route changes (safe)
     document.body.className = theme;
   }, [theme, location]);
 
